@@ -9,8 +9,8 @@ jest.mock('../schemas', () => {
     entity,
     actionsMeta: {
       ENTITY_LIST_SUCCESS: { property: 'list', schema: [entity] },
-      ENTITY_DETAIL_SUCCESS: { property: 'detail', schema: entity }
-    }
+      ENTITY_DETAIL_SUCCESS: { property: 'detail', schema: entity },
+    },
   }
 })
 
@@ -29,6 +29,6 @@ it('dispatches entities action along with the normalized action', () => {
   expect(store.dispatch(action)).toEqual({ ...action, detail: 2 })
   expect(store.getActions()).toEqual([
     { type: 'ENTITIES_RECEIVE', entities: { entity: { 2: { id: 2, foo: 'bar' } } } },
-    { ...action, detail: 2 }
+    { ...action, detail: 2 },
   ])
 })

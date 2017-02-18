@@ -1,9 +1,11 @@
 import upperFirst from 'lodash/upperFirst'
 
+// to add new selectors just import them
 import * as entities from './entities/selectors'
 import * as resource from './resource/selectors'
 import * as status from './status/selectors'
 
+// and add it here
 const stores = {
   entities,
   resource,

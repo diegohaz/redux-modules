@@ -6,14 +6,14 @@ const altState = {
     1: {
       id: 1,
       title: 'test',
-      description: 'test'
+      description: 'test',
     },
     2: {
       id: 2,
       title: 'test 2',
-      description: 'test 2'
-    }
-  }
+      description: 'test 2',
+    },
+  },
 }
 
 test('initialState', () => {

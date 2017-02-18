@@ -9,7 +9,7 @@ it('returns the initial state', () => {
 const expectStateToMatch = (suffix, loading, error) =>
   expect(reducer(initialState, { type: `SOMETHING_${suffix}` })).toEqual({
     loading: { ...getLoadingState(), SOMETHING: loading },
-    error: { ...getErrorState(), SOMETHING: error }
+    error: { ...getErrorState(), SOMETHING: error },
   })
 
 it('handles SOMETHING_REQUEST', () => {
