@@ -2,7 +2,7 @@
 
 [![Build Status](https://img.shields.io/travis/diegohaz/redux-modules/master.svg?style=flat-square)](https://travis-ci.org/diegohaz/redux-modules) [![Coverage Status](https://img.shields.io/codecov/c/github/diegohaz/redux-modules/master.svg?style=flat-square)](https://codecov.io/gh/diegohaz/redux-modules/branch/master)
 
-**redux-modules** is a modular approach to better organize redux stuff. It was inspired by [ducks-modular-redux](https://github.com/erikras/ducks-modular-redux). However, this handles not only `actions` and `reducers`, but also `selectors`, `sagas`, `middlewares` etc.
+This is a modular approach to better organize redux stuff. It was inspired by [ducks-modular-redux](https://github.com/erikras/ducks-modular-redux). However, this handles not only `actions` and `reducers`, but also `selectors`, `sagas`, `middlewares` etc.
 
 In short, a redux module is:
 
