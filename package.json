@@ -13,7 +13,7 @@
   "devDependencies": {
     "babel-cli": "^6.23.0",
     "babel-eslint": "^7.1.1",
-    "babel-jest": "^18.0.0",
+    "babel-jest": "^20.0.2",
     "babel-preset-env": "^1.1.8",
     "babel-preset-stage-3": "^6.22.0",
     "del-cli": "^1.0.0",
